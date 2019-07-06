@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         readItems();
         itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
         lvItems = (ListView) findViewById(R.id.lvItems);
-        lvItems.setAdapter(itemsAdapter);
+        lvItems.setAdapter(itemsAdapter); //TODO what is this
 
         //Mock data
         //items.add("first item");
